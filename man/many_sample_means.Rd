@@ -9,9 +9,9 @@ many_sample_means(vec, n, reps)
 \arguments{
 \item{vec}{A vector}
 
-\item{n}{An integer}
+\item{n}{An integer representing sample size}
 
-\item{reps}{An integer}
+\item{reps}{An integer representing how many times sample_mean is performed}
 }
 \value{
 A vector of the results of sample mean being called reps times
