@@ -1,2 +1,2 @@
-# twelvedays
- Package for singing the 12 days of Christmas song
+# samples
+Challenge 1 for Week 7: putting 3 functions (sample_mean, many_sample_means, sample_means_ns) into an R package in a github repo
