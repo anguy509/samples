@@ -1,4 +1,4 @@
-#' Perform the sample_mean process many times (reps) and return a vector of the results
+#' Performs the sample_mean process many times (reps) and returns a vector of the results
 #'
 #' @param vec A vector
 #' @param n An integer representing sample size
