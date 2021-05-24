@@ -1,4 +1,4 @@
-#' Puts the various parts of speech together into a full phrase.
+#' Returns mean of random sample of size n
 #'
 #' @param vec a numeric vector
 #' @param n A integer 
