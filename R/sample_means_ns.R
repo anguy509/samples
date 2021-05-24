@@ -14,9 +14,5 @@
 #' @export
 sample_means_ns <- function(vec, reps, ns)
 {
-  x <- map(ns, ~many_sample_means(vec, .x, reps))
-  x <- unlist(x)
-  y <- rep(ns, reps)
-  
-  return(tibble(sample_mean = x, n = y))
+  return(map_df(ns, ~ tibble(sample_mean = many_sample_means(vec, .x, reps), n = .x)))
 }
